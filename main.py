@@ -9,3 +9,4 @@ Second_student= names_of_students[1]
 print(Second_student)
 names_of_students.append ("Micheal")
 print(names_of_students)
+# Creating a list
