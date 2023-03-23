@@ -49,3 +49,50 @@ print(student_grade)
 age= input("What is your age?\n")
 # print(age)
 print(f"Your age is {age}")
+
+# Calcutaions PEMDAS (Parenthesis, exponet, multiplication, division Subtaction)
+# Logic (Not, And, or)
+# Operators (and, 
+#            or, 
+#            < {Greater than}, 
+#            > {Less than}, 
+#            >= {Greater than or equal to}, 
+#            <= {Less than or equal to},
+#            == {Equal to},
+#            != {not equal to}
+#            not     )
+
+
+a = 6 
+print (a == 5)
+
+gender= "female"
+age = 12
+print (gender=="Female" or age == 12)
+# output = True ( or means either 1 answer is True)
+print (gender=="Female" and age == 12)
+#output = false ( and means both answers are false)
+
+gender= "female"
+age = 9
+print (gender=="Female" or age != 12)
+#output = true ( means age is not equal to 12)
+print (gender=="Female" or age > 12)
+#output = false (means age is not greater than 12 )
+print (gender=="Female" or age >= 12)
+#output = false (means age is not greater than or equal to 12 )
+
+
+# Conditional Statements
+age = input("Enter your age: ")
+if age < "18":
+    print ("You are not allowed to drive")
+
+if age == "18" and age <= "79":
+    print ("You can drive")
+else : print ("You are not allowed to drive")
+
+if age == "18" and age <= "79":
+    print ("You can drive")
+
+
